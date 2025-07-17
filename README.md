@@ -30,7 +30,7 @@ The algorithm is designed to be **reproducible** and **easy to adapt** for futur
 
 1.Clone this repository
 
-git clone https://github.com/your-username/ChaoticImageEncryption.git
+git clone https://github.com/calmbrotheryul/4D-Chaotic-Image-Encryption.git
 Open MATLAB and set the directory to the cloned folder.
 
 2.Run the main script
