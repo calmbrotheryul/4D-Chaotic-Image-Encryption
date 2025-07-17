@@ -33,13 +33,13 @@ The algorithm is designed to be **reproducible** and **easy to adapt** for futur
 git clone https://github.com/calmbrotheryul/4D-Chaotic-Image-Encryption.git
 Open MATLAB and set the directory to the cloned folder.
 
-2.Run the main script
-
-image_encryption_decryption
-
-3.Adjust Parameters
+2.Adjust Parameters
 
 You may customize image paths and chaotic system parameters in image_encryption_decryption.m.
+
+3.Run the main script
+
+image_encryption_decryption
 
 
 ## 🔧 Requirements
