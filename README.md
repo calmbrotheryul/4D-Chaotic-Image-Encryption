@@ -29,14 +29,18 @@ The algorithm is designed to be **reproducible** and **easy to adapt** for futur
 
 ## 📁 File Structure
 
-```text
- ┣ 📄 image_encryption_decryption.m          # Main script containing the full pipeline
- ┣ 📄 README.md                              # Documentation
- ┣ 📁 example_images/                        # Grayscale test images used in the paper
- ┣ 📁 results/                               # Sample encrypted/decrypted images and metrics
- 
+ ┣ 📄 image_encryption_decryption.m           # Main script containing the full pipeline
 
-🧪 How to Use
+ ┣ 📄 README.md                               # Documentation
+
+ ┣ 📁 example_images/                         # Grayscale test images used in the paper
+
+ ┣ 📁 results/                                # Sample encrypted/decrypted images and metrics
+
+
+---
+
+## 🧪 How to Use
 
 1.Clone this repository
 
@@ -51,11 +55,12 @@ image_encryption_decryption
 
 You may customize image paths and chaotic system parameters in image_encryption_decryption.m.
 
-🔧 Requirements
+
+## 🔧 Requirements
 MATLAB R2020a or newer
 
 
-📄 Citation
+## 📄 Citation
 If you use this code or build upon it in your research, please cite the following paper:
 
 Author(s): [Your Name], et al.
@@ -64,3 +69,5 @@ Journal: The Visual Computer (under review)
 DOI: [DOI link once available]
 
 Additionally, please cite this GitHub repository or its Zenodo DOI (if uploaded there).
+
+---
