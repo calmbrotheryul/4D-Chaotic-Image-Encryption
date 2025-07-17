@@ -1,4 +1,7 @@
 # 4D-Chaotic-Image-Encryption
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16011486.svg)](https://doi.org/10.5281/zenodo.16011486)
+
 This repository contains the MATLAB implementation of the chaotic image encryption algorithm proposed in our manuscript submitted to *The Visual Computer*. The algorithm integrates chaotic systems with multiple diffusion and permutation stages to achieve high security and performance. Comprehensive experimental evaluations, including statistical, security, and robustness analyses, are included.
 
 📌 **Note:** This code is directly related to the manuscript currently under submission to *The Visual Computer*. If you use this code or data, please cite our corresponding manuscript (citation details below).
@@ -75,6 +78,8 @@ MATLAB R2020a or newer
 If you use this code or build upon it in your research, please cite the following paper:
 
 Author(s): Yan S., et al.
+
+DOI: [10.5281/zenodo.16011486](https://doi.org/10.5281/zenodo.16011486)
 
 Title: High-Security Image Encryption via a Novel 4D Chaotic System and Dynamic Block Scrambling
 
