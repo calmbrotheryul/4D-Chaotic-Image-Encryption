@@ -25,20 +25,6 @@ The algorithm is designed to be **reproducible** and **easy to adapt** for futur
 - MATLAB implementation using `.m` script
 - Designed specifically for grayscale images
 
----
-
-## 📁 File Structure
-
- ┣ 📄 image_encryption_decryption.m           # Main script containing the full pipeline
-
- ┣ 📄 README.md                               # Documentation
-
- ┣ 📁 example_images/                         # Grayscale test images used in the paper
-
- ┣ 📁 results/                                # Sample encrypted/decrypted images and metrics
-
-
----
 
 ## 🧪 How to Use
 
