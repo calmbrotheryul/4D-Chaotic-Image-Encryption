@@ -5,15 +5,24 @@ This repository contains the MATLAB implementation of the chaotic image encrypti
 
 ---
 
-## 🔍 Overview
+🔍 Overview
+This project presents a MATLAB implementation of a novel grayscale image encryption algorithm based on a four-dimensional (4D) continuous chaotic system with strong dissipative properties. The method addresses the limitations of conventional encryption schemes when applied to image data, such as large size and strong inter-pixel correlation.
 
-This project provides a full MATLAB implementation of a chaotic image encryption scheme that leverages nonlinear dynamic behavior to ensure secure image transmission. The encryption pipeline includes:
+Key components of the algorithm include:
 
-- Chaotic sequence generation
-- Image permutation and diffusion
-- Performance evaluation (histogram, entropy, NPCR, UACI, key sensitivity, etc.)
+Image-dependent key generation using SHA-256 to derive initial conditions from the input image
 
-The algorithm is designed to be **reproducible** and **easy to adapt** for future research on chaos-based cryptography.
+Global Arnold scrambling and intra-block dynamic Zigzag scanning to increase positional randomness
+
+Dual diffusion process combining chaotic orbits, XOR operations, and inter-block chaining for high sensitivity and security
+
+Robust performance evaluation, including metrics such as entropy, NPCR, UACI, and key sensitivity
+
+Simulations on standard test images demonstrate that the algorithm achieves strong security performance, with an average NPCR of 99.61% and UACI of 33.46%, surpassing several state-of-the-art methods.
+
+This code is directly related to our manuscript submitted to The Visual Computer, and is intended to facilitate reproducibility and future research in chaos-based image encryption.
+
+
 
 ---
 
@@ -58,17 +67,16 @@ image_encryption_decryption
 
 
 ## 🔧 Requirements
+
 MATLAB R2020a or newer
 
 
 ## 📄 Citation
 If you use this code or build upon it in your research, please cite the following paper:
 
-Author(s): [Your Name], et al.
-Title: [Title of your manuscript]
+Author(s): Yuxing Liu, et al.
+
+Title: High-Security Image Encryption via a Novel 4D Chaotic System and Dynamic Block Scrambling
+
 Journal: The Visual Computer (under review)
-DOI: [DOI link once available]
 
-Additionally, please cite this GitHub repository or its Zenodo DOI (if uploaded there).
-
----
