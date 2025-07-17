@@ -28,18 +28,33 @@ The algorithm is designed to be **reproducible** and **easy to adapt** for futur
 
 ## 🧪 How to Use
 
-1.Clone this repository
+You can use either of the following two methods to obtain and run the code:
+
+🔹 Option 1: Clone this repository (recommended if you use Git)
+
+1.Open a terminal (or Git Bash) and run:
 
 git clone https://github.com/calmbrotheryul/4D-Chaotic-Image-Encryption.git
-Open MATLAB and set the directory to the cloned folder.
 
-2.Adjust Parameters
+2.Open MATLAB and set the working directory to the cloned folder.
 
-You may customize image paths and chaotic system parameters in image_encryption_decryption.m.
-
-3.Run the main script
+3.Run the main script:
 
 image_encryption_decryption
+
+🔹 Option 2: Download ZIP or manually copy the code
+
+1.Click the green “Code” button on the top-right of this GitHub page, then choose “Download ZIP”.
+
+2.Extract the ZIP file to a folder.
+
+3.Open MATLAB, set the working directory to the extracted folder.
+
+4.Run the script:
+
+image_encryption_decryption
+
+✅ Note: This project is intended for use with grayscale images only. Make sure your input image is 8-bit grayscale format.
 
 
 ## 🔧 Requirements
