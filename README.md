@@ -5,7 +5,7 @@ This repository contains the MATLAB implementation of the chaotic image encrypti
 
 ---
 
-🔍 Overview
+## 🔍 Overview
 This project presents a MATLAB implementation of a novel grayscale image encryption algorithm based on a four-dimensional (4D) continuous chaotic system with strong dissipative properties. The method addresses the limitations of conventional encryption schemes when applied to image data, such as large size and strong inter-pixel correlation.
 
 Key components of the algorithm include:
@@ -74,7 +74,7 @@ MATLAB R2020a or newer
 ## 📄 Citation
 If you use this code or build upon it in your research, please cite the following paper:
 
-Author(s): Yuxing Liu, et al.
+Author(s): Yan S., et al.
 
 Title: High-Security Image Encryption via a Novel 4D Chaotic System and Dynamic Block Scrambling
 
