@@ -81,7 +81,7 @@ Author(s): Yan S., et al.
 
 DOI: [10.5281/zenodo.16011486](https://doi.org/10.5281/zenodo.16011486)
 
-Title: High-Security Image Encryption via a Novel 4D Chaotic System and Dynamic Block Scrambling
+Title: Enhancing Image Security through a Novel 4D Chaotic System-Based Encryption Algorithm
 
 Journal: The Visual Computer (under review)
 
